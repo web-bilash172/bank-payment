@@ -18,3 +18,6 @@ document.getElementById('login-submit').addEventListener('click', function () {
 
     }
 })
+const nameOfOrganization = document.getElementById("name").value;
+
+console.log(nameOfOrganization);
